@@ -11,8 +11,7 @@
   #
 
   # 網站 Sistema de Cats com API pública
-  ![Texto Alternativo para acessibilidade](/readmeicons/image.png)
-  ![Texto Alternativo](/readmeicons/Captura%20de%20tela%202026-06-14%20163654.
+  ![Texto Alternativo para acessibilidade](image.png)
 
 
 
