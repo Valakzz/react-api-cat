@@ -47,7 +47,7 @@ A aplicação utiliza a **The Cat API** para buscar imagens de gatos e exibi-las
 - 🐱 Busca de imagens de gatos
 - 🖼️ Exibição das imagens em cards
 - ⚛️ Utilização de componentes React
-- 🔷 Tipagem dos dados utilizando TypeScript
+- 🔷 Tipagem dos dados utilizando JavaScript
 - 📡 Requisições utilizando `fetch`
 
 ## API Usada
