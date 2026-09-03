@@ -1,78 +1,68 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  
+  <b>`プ ロ グ ラ マ`</b>
+  <br>
+  <samp>
+      Hi there! I'm <b>Valakzz</b> 👋
+      <br>
+      Kotlin • Back-end • Dev in progress
+  </samp>
+  #
 
-Currently, two official plugins are available:
+  # 網站 Sistema de Cats com API pública
+  ![Texto Alternativo para acessibilidade](/readmeicons/image.png)
+  ![Texto Alternativo](/readmeicons/Captura%20de%20tela%202026-06-14%20163654.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 
+
+
+
+
+# 🐱 ReactApiCat
+
+Projeto desenvolvido para praticar o consumo de APIs utilizando React, TypeScript e Vite.
+
+A aplicação utiliza a **The Cat API** para buscar imagens de gatos e exibi-las dinamicamente na tela.
+
+## 🚀 Tecnologias utilizadas
+
+- React
+- TypeScript
+- Vite
+- CSS
+- Fetch API
+- The Cat API
+
+## 📌 Funcionalidades
+
+- 🔄 Consumo de uma API externa
+- 🐱 Busca de imagens de gatos
+- 🖼️ Exibição das imagens em cards
+- ⚛️ Utilização de componentes React
+- 🔷 Tipagem dos dados utilizando TypeScript
+- 📡 Requisições utilizando `fetch`
+
+## API Usada
+```bash
+https://api.thecatapi.com/v1/images/search?limit=5
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 📂 Estrutura do projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+```text
+src/
+├── assets/
+├── card/
+├── App.tsx
+├── App.css
+├── index.css
+└── main.tsx
