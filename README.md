@@ -35,7 +35,7 @@ A aplicação utiliza a **The Cat API** para buscar imagens de gatos e exibi-las
 ## 🚀 Tecnologias utilizadas
 
 - React
-- TypeScript
+- JavaScript
 - Vite
 - CSS
 - Fetch API
